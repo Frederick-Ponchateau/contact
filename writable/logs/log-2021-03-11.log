@@ -54,3 +54,52 @@ CRITICAL - 2021-03-11 07:57:13 --> Undefined variable: contat
 #3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-03-11 08:58:48 --> Array to string conversion
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 08:58:50 --> Array to string conversion
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 08:59:16 --> Use of undefined constant typeSearch - assumed 'typeSearch' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 09:06:49 --> Undefined property: App\Controllers\Api::$filmModel
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 24, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 09:16:20 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 09:16:57 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 09:17:38 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
