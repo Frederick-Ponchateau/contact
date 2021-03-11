@@ -1,0 +1,56 @@
+ERROR - 2021-03-11 07:34:17 --> mysqli_sql_exception: Champ 'lastName' inconnu dans order clause in C:\wamp64\www\contact\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\contact\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\contact\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\contact\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\contact\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\contact\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\contact\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(6, 0)
+#6 C:\wamp64\www\contact\system\BaseModel.php(1144): CodeIgniter\BaseModel->findAll(6, 0)
+#7 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\BaseModel->paginate(6)
+#8 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#9 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-11 07:34:17 --> Champ 'lastName' inconnu dans order clause
+#0 C:\wamp64\www\contact\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64\www\contact\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\contact\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\contact\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\contact\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\contact\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(6, 0)
+#6 C:\wamp64\www\contact\system\BaseModel.php(1144): CodeIgniter\BaseModel->findAll(6, 0)
+#7 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\BaseModel->paginate(6)
+#8 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#9 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#10 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-03-11 07:43:12 --> Undefined property: App\Controllers\Api::$contctsModel
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 07:45:54 --> Call to undefined function App\Controllers\vardump()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 07:47:43 --> Undefined property: App\Controllers\Api::$contctsModel
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 15, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 07:57:13 --> Undefined variable: contat
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 12, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
