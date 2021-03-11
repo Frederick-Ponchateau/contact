@@ -103,3 +103,73 @@ CRITICAL - 2021-03-11 09:17:38 --> syntax error, unexpected 'public' (T_PUBLIC)
 #3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-03-11 09:39:48 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 37, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 10:01:19 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 37, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 10:02:14 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 37, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 10:02:48 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 10:11:36 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 38, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 12:20:02 --> Undefined offset: 1
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\c...', 87, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 12:26:07 --> Undefined index: favory
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\c...', 92, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 12:27:02 --> Illegal string offset 'favory'
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\c...', 92, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 12:27:02 --> Illegal string offset 'favory'
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\c...', 92, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 12:32:56 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
