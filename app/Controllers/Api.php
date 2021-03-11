@@ -36,7 +36,7 @@ class Api extends BaseController
 
             }    
         } 
-        if($searchContact){
+        if(isset($searchContact)){
             $reponse = ['response' => true];
             return $this->response->setJSON($searchContact);
         }
@@ -79,20 +79,33 @@ class Api extends BaseController
          ****** 4- j'affiche si oui et je modifie  pareil pour non  *********
         ****************************************************************************/
         /*** 1 ***/
-        $id = $this->request->getvar('id');
+        $id = $this->request->getvar("id");
         /*** 2 ***/
-        if($id){
+        if(isset($id)){
         /*** 3 ***/
-            $favory = $this->contact->where('id',$id)->first();
-            $fav = [ 'reponse' => $favory["favory"]];
-            if($fav['reponse'] == 'No')
-            {
-                // $this->contact->where('id',$id)
-                //         ->set()
-                //         ->update();
-                return $this->response->setJSON($favory["favory"]);
+            $contactID = $this->contact->where("id",$id)->first();
+            
+            if($contactID){
+           
+                /*** 4 ***/
+                    if($contactID["favory"] == "Yes")
+                    {   
+                        
+                         $this->contact->where("id",$id)
+                                ->set("favory" , "No")
+                                ->update();
+                                return $this->response->setJSON(["reponse"=>true]);
+                    }//END test favory = yes
+                    if($contactID["favory"] == "No")
+                    {    
+                       
+                        $this->contact->where("id",$id)
+                                ->set("favory", "Yes")
+                                ->update();
+                                return $this->response->setJSON(['reponse'=>true]);
+                    }//END test favory = no
+                    return $this->response->setJSON(['reponse'=>false]);
             }
-            return $this->response->setJSON($fav);
         }
     }
     

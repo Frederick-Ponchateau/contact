@@ -173,3 +173,582 @@ CRITICAL - 2021-03-11 12:32:56 --> Undefined variable: searchContact
 #3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-03-11 13:25:42 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(99): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:27:52 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(101): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:28:34 --> Cannot use object of type App\Models\ContactsModel as array
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-11 13:30:26 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(100): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:30:27 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(100): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:30:27 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(100): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:30:31 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(94): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:34:10 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:34:33 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:37:17 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:37:37 --> Undefined variable: No
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 94, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 13:43:37 --> Undefined variable: favory
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 87, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 13:43:39 --> Undefined variable: favory
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 87, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 13:44:06 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 13:44:47 --> Too few arguments to function CodeIgniter\Model::set(), 0 passed in C:\wamp64\www\contact\app\Controllers\Api.php on line 93 and at least 1 expected
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(93): CodeIgniter\Model->set()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 13:47:25 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:48:30 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:48:38 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:49:00 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:04 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:05 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:05 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:06 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:06 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:06 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:50:13 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:40 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:41 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:41 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:41 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:42 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:42 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:42 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:51:42 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:52:21 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:55:31 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:55:40 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 13:59:23 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(95): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:00:44 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(96): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:01:08 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(104): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:04:46 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:05:36 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:05:37 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:06:22 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:06:54 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:06:56 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:07:51 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:08:10 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:10 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:11 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:11 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:11 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:11 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:12 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:12 --> Undefined variable: searchContact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 39, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:08:55 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:08:56 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:09:10 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:09:11 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:09:11 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:09:53 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:10:38 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:16:24 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(104): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:16:47 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(104): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:17:39 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(104): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-11 14:18:55 --> Call to undefined method App\Models\ContactsModel::whedre
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->__call('whedre', Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:19:37 --> Call to undefined method App\Models\ContactsModel::whedre
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(102): CodeIgniter\Model->__call('whedre', Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-11 14:20:45 --> There is no data to update.
+#0 C:\wamp64\www\contact\system\BaseModel.php(880): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\contact\system\Model.php(737): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\contact\app\Controllers\Api.php(104): CodeIgniter\Model->update()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->favory()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
