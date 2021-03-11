@@ -25,19 +25,19 @@ License: You must have a valid license purchased only from themeforest(the above
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- BEGIN: VENDOR CSS-->
-    <link rel="stylesheet" type="text/css" href="<?= 'public/app-assets/vendors/vendors.min.css'?>>
-    <link rel="stylesheet" type="text/css" href="<?= base_url('public/app-assets/fonts/fontawesome/css/flag-icon.min.css')?>">
-    <link rel="stylesheet" type="text/css" href="<?= base_url('public/app-assets/vendors/data-tables/css/jquery.dataTables.min.css')?>">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css">
-    <!-- END: VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="<?= base_url('public/app-assets/vendors/vendors.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/fonts/fontawesome/css/flag-icon.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/vendors/data-tables/css/jquery.dataTables.min.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css')?>">
+    <!-- END: VEND
     <!-- BEGIN: Page Level CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/vertical-modern-menu-template/materialize.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/vertical-modern-menu-template/style.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-sidebar.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-contacts.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/themes/vertical-modern-menu-template/materialize.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/themes/vertical-modern-menu-template/style.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/pages/app-sidebar.css')?>">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/pages/app-contacts.css')?>">
     <!-- END: Page Level CSS-->
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/custom/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('app-assets/css/custom/custom.css')?>">
     <!-- END: Custom CSS-->
   </head>
   <!-- END: Head-->
