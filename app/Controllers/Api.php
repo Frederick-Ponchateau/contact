@@ -67,7 +67,79 @@ class Api extends BaseController
     /************ Modifier - Ajouter ***********/
     public function edit()
     {
+         /***************************************************************************
+        ****** 1- je recupere l'id **********
+         ****** 2- je verifie si la saisie exisite si oui si non msg erreur ******
+         ****** 3- Je je fait ma requete pour modifie ********
+         ******   *********
+        ****************************************************************************/
+        /*** 1 ***/
+        $etatAction = [
+            "reponses" => false 
+        ];
+        $rules = [
+            'id'          => 'required',
+            'name'          => 'required|min_length[3]|max_length[20]',
+            'phone'         => 'required|min_length[3]|max_length[20]'
+            
+        ];
         
+        /*** 2 ***/
+        if($this->validate($rules)){
+            $id = $this->request->getvar("id");
+            
+            $data = [
+                'first_Name'     => $this->request->getvar("name"),
+
+                'phone'    => $this->request->getvar("phone")
+                
+            ];
+            
+            
+            $contactID = $this->contact->where("id",$id)->first();
+            
+            if($this->request->getvar("email")!= ''){
+                $data["email"] = 
+                    $this->request->getvar("email");
+            }
+            
+            /********Je vérifie l'existance en base de l'id de ma saisie*****************/
+            if($contactID){
+                
+
+                    $this->contact->where("id",$id)
+                                    ->set($data)
+                                    ->update();
+    
+                                    $etatAction = [
+                                        "reponse"=>true,
+                                        "action" => "l'utisateur a été modifié"
+                                    ];
+                
+
+            }else{/********* Si elle existe pas en base msg d'erreur ****************/
+                $etatAction["error"]["id"]["msg"]= "Id is no avialible";
+                $etatAction["error"]["id"]["system"] = false;
+            } 
+
+        }else{/********* Si il y a pas de saisie dans mes champs msg d'erreur ****************/
+            if(empty($contactID["id"])){
+                
+                $etatAction["error"]["id"]["msg"]= "No id";
+                $etatAction["error"]["id"]["system"] = false;
+            }
+            if(empty($this->request->getvar("name"))){
+                $etatAction["error"]["name"]["msg"]= "No name";
+                $etatAction["error"]["name"]["system"] = false;
+            }
+                if(empty($this->request->getvar("phone"))){
+                $etatAction["error"]["phone"]["msg"]= "No phone";
+                $etatAction["error"]["phone"]["system"] = false;
+            }
+        }    
+        return $this->response->setJSON($etatAction);
+
+           
     }
     /********* Favory param id du contact a supp *********/
     public function favory()
@@ -107,6 +179,52 @@ class Api extends BaseController
                     return $this->response->setJSON(['reponse'=>false]);
             }
         }
+    }
+            /**********************************************
+             * ************  La fonction doit créee un nouveau contact
+             * ************ 1- elle reçoit les informations en post : le nom (type string) ,prenom(type string) ,image (type image),
+             * ************ company (type number), le job(type string), email(type email), telephone(type number numero valide) ,notes(type string)
+             * ************ 2- on retourne que le contact a été crée par true 
+             * ************ on doit dire pourquoi la tache a echoué  
+             * ************ deux champs obligatoire nom et numéros de téléphone
+             */
+    public function create()
+    {
+        $etatAction = [
+            "reponses" => false 
+        ];
+        $name = $this->request->getvar("name");
+        $phone = $this->request->getvar("phone");
+        $rules = [
+            'name'          => 'required|min_length[3]|max_length[20]',
+            'phone'         => 'required|min_length[3]|max_length[20]'
+            
+        ];
+        if($this->validate($rules)){
+            $data = [
+                'first_Name'     => $name,
+                'phone'    => $phone
+                
+            ];
+            $this->contact->save($data);
+            $etatAction= ['responses' => true ] ;
+            
+            $this->response->setJSON(['name' => $name , 'phone' => $phone]);
+                   
+            
+        }else{
+            if(empty($name)){
+                $etatAction["error"]["name"]["msg"]= "No name";
+                $etatAction["error"]["name"]["system"] = false;
+            }
+                if(empty($phone)){
+                $etatAction["error"]["phone"]["msg"]= "No phone";
+                $etatAction["error"]["phone"]["system"] = false;
+            }
+        }
+        return $this->response->setJSON($etatAction);
+
+
     }
     
 
