@@ -1,0 +1,168 @@
+CRITICAL - 2021-03-12 06:23:34 --> Argument 2 passed to CodeIgniter\HTTP\Response::setJSON() must be of the type bool, array given, called in C:\wamp64\www\contact\app\Controllers\Api.php on line 129
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(129): CodeIgniter\HTTP\Response->setJSON(Array, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:30:07 --> Undefined variable: validation
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 134, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:34:44 --> Call to a member function listErrors() on null
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-12 06:35:42 --> Call to a member function listErrors() on null
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-12 06:39:40 --> Call to a member function getError() on null
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-12 06:41:21 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:43:08 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:48:08 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:48:15 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:48:23 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 06:48:52 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 07:00:17 --> required|min_length[3]|max_length[20] is not a valid rule.
+#0 C:\wamp64\www\contact\system\Controller.php(168): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_le...')
+#1 C:\wamp64\www\contact\app\Controllers\Api.php(137): CodeIgniter\Controller->validate('required|min_le...')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-12 07:00:30 --> required|min_length[3]|max_length[20] is not a valid rule.
+#0 C:\wamp64\www\contact\system\Controller.php(168): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|min_le...')
+#1 C:\wamp64\www\contact\app\Controllers\Api.php(137): CodeIgniter\Controller->validate('required|min_le...')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-12 07:01:09 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, bool given, called in C:\wamp64\www\contact\system\Controller.php on line 181
+#0 C:\wamp64\www\contact\system\Controller.php(181): CodeIgniter\Validation\Validation->setRules(false, Array)
+#1 C:\wamp64\www\contact\app\Controllers\Api.php(137): CodeIgniter\Controller->validate(false)
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-12 07:40:46 --> Undefined variable: contact
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 137, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 07:46:56 --> Array to string conversion
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 07:47:10 --> syntax error, unexpected '$etatAction' (T_VARIABLE), expecting ')'
+#0 C:\wamp64\www\contact\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('api/create')
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('api/create')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 07:47:48 --> Array to string conversion
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\c...', 139, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:11:22 --> Cannot use a scalar value as an array
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'C:\\wamp64\\www\\c...', 107, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:12:13 --> Cannot use a scalar value as an array
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'C:\\wamp64\\www\\c...', 106, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:17:05 --> Cannot use a scalar value as an array
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a sc...', 'C:\\wamp64\\www\\c...', 105, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:20:16 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in C:\wamp64\www\contact\app\Controllers\Api.php on line 106 and exactly 1 expected
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(106): CodeIgniter\BaseModel->save()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:29:56 --> Undefined variable: contactID
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 99, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-12 09:30:46 --> Undefined variable: contactID
+#0 C:\wamp64\www\contact\app\Controllers\Api.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 99, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->edit()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
