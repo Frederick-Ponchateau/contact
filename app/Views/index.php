@@ -182,9 +182,9 @@
               </td>              
               <td><span class="avatar-contact avatar-online"><img src="../../../app-assets/images/avatar/avatar-1.png"
                     alt="avatar"></span></td>
-              <td>John</td>
-              <td>john@domain.com</td>
-              <td>202-555-0119</td>
+              <td><?= $contact->first_Name." ".$contact->last_Name ?></td>
+              <td><?= $contact->email ?></td>
+              <td><?= $contact->phone ?></td>
               <td><span class="favorite"><i class="material-icons"> star_border </i></span></td>
               <td><span><i class="material-icons delete">delete_outline</i></span></td>
             </tr>
