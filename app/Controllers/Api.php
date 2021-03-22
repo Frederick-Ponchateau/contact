@@ -16,7 +16,7 @@ class Api extends BaseController
         $typeSearch = $this->request->getvar('typeSearch');
         $elementSearch = $this->request->getvar('element');
         $reponse = ['response' => false];
-        // $listContact = $this->contact->orderBy('last_Name','ASC')->orderBy('first_Name','ASC')->paginate(6);
+     $listContact = $this->contact->orderBy('last_Name','ASC')->orderBy('first_Name','ASC')->paginate(6);
         
          if(!empty($typeSearch) && !empty($elementSearch)){
 		// 	//dd($this->request->getvar('search'));
@@ -40,7 +40,7 @@ class Api extends BaseController
             $reponse = ['response' => true];
             return $this->response->setJSON($searchContact);
         }
-        return $this->response->setJSON($reponse);   
+        return $this->response->setJSON($listContact);   
 	}
     
     

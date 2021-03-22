@@ -31,6 +31,8 @@ class BaseController extends Controller
 	public function __construct(){
 
     	helper(['form', 'validation']);   
+		$this->session = \Config\Services::session();
+		$this->session->start();
 	
 	}
 

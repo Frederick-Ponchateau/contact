@@ -1,0 +1,85 @@
+CRITICAL - 2021-03-22 09:41:47 --> Call to undefined function App\Controllers\getvar()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:42:05 --> Call to undefined function App\Controllers\getvar()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:42:17 --> Call to undefined function App\Controllers\getvar()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 09:43:04 --> syntax error, unexpected '?>'
+#0 C:\wamp64\www\contact\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\contact\system\Common.php(1217): CodeIgniter\View\View->render('/formulaire', Array, true)
+#2 C:\wamp64\www\contact\app\Controllers\Formulaire.php(11): view('/formulaire')
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-22 10:30:07 --> Undefined variable: data
+#0 C:\wamp64\www\contact\app\Controllers\Formulaire.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 26, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-22 10:30:12 --> Undefined variable: data
+#0 C:\wamp64\www\contact\app\Controllers\Formulaire.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 26, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Formulaire->index()
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulaire))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-22 13:15:03 --> 6 : Could not resolve host: contacts
+#0 C:\wamp64\www\contact\system\HTTP\CURLRequest.php(805): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resol...')
+#1 C:\wamp64\www\contact\system\HTTP\CURLRequest.php(418): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\wamp64\www\contact\system\HTTP\CURLRequest.php(127): CodeIgniter\HTTP\CURLRequest->send('POST', 'http://contacts...')
+#3 C:\wamp64\www\contact\app\Controllers\Home.php(17): CodeIgniter\HTTP\CURLRequest->request('POST', 'http://contacts...', Array)
+#4 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-22 13:28:29 --> Call to undefined function App\Controllers\getbody()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 13:28:40 --> Call to undefined function App\Controllers\getBody()
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-22 13:54:47 --> Undefined variable: contact
+#0 C:\wamp64\www\contact\app\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 181, Array)
+#1 C:\wamp64\www\contact\system\View\View.php(220): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\contact\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\contact\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\wamp64\www\contact\app\Controllers\Home.php(29): view('index', Array)
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-22 13:55:00 --> Undefined variable: contacts
+#0 C:\wamp64\www\contact\app\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 181, Array)
+#1 C:\wamp64\www\contact\system\View\View.php(220): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\contact\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\contact\system\Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\wamp64\www\contact\app\Controllers\Home.php(29): view('index', Array)
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#6 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
