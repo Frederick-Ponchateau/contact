@@ -185,7 +185,7 @@
               <td><?= $contact->first_Name." ".$contact->last_Name ?></td>
               <td><?= $contact->email ?></td>
               <td><?= $contact->phone ?></td>
-              <td><span class="favorite"><i class="material-icons"> star_border </i></span></td>
+              <td><span class="favorite"><i id="f-<?=$contact->id ?>" class="material-icons"> star_border </i></span></td>
               <td><span><i class="material-icons delete">delete_outline</i></span></td>
             </tr>
               <?php }}?>
