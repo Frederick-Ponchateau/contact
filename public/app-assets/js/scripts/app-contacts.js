@@ -102,6 +102,8 @@ $(document).ready(function () {
        e.preventDefault();
      
    });
+   // Add contact
+   
   
 
    // Toggle class of sidenav

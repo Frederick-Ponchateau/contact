@@ -30,8 +30,17 @@ function postToAPI(url,dataParam)
 
  })
 }
+// Add contact
 $(".add-contact").on("click",function (e) {
+	var param = {
+		name: $("#first_name").val(),
+		prenom: $("#last_name").val(),
+        phone: $("#phone").val()
+
+	 };
+	postToAPI("create",param)
 console.log("j'ai cliqué sur le bouton");
-console.log($("#first_name").val());
+
+
 
  });

@@ -194,15 +194,19 @@ class Api extends BaseController
             "reponses" => false 
         ];
         $name = $this->request->getvar("name");
+        $last_name = $this->request->getvar("prenom");
         $phone = $this->request->getvar("phone");
+        
         $rules = [
             'name'          => 'required|min_length[3]|max_length[20]',
+            'prenom'        => 'required|min_length[3]|max_length[20]',
             'phone'         => 'required|min_length[3]|max_length[20]'
             
         ];
         if($this->validate($rules)){
             $data = [
                 'first_Name'     => $name,
+                'last_Name'   => $last_name,
                 'phone'    => $phone
                 
             ];
