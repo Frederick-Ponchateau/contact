@@ -1,0 +1,13 @@
+CRITICAL - 2021-03-23 08:00:28 --> Class 'App\Controllers\ContactsModel' not found
+#0 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\BaseDeDonner->index()
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaseDeDonner))
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 08:15:32 --> Undefined property: App\Controllers\BaseDeDonner::$contact
+#0 C:\wamp64\www\contact\app\Controllers\BaseDeDonner.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 21, Array)
+#1 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\BaseDeDonner->delete('113')
+#2 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaseDeDonner))
+#3 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -76,11 +76,33 @@ $(document).ready(function () {
    }
 
    // Favorite star click
-   $(".app-page .favorite i").on("click", function (e) {
-      console.log("j'ai cliquez sur favory ",e.target.id.split("-") );
+   $(".favorite i").on("click", function (e) {
+      //var testID = e.target.id.split("-");
+      console.log($(this).data("role"));
+      //alert($(this).data("nom")+" a été ajouté en favory");
+      /*********** Appel de ma fonction API */
+      var param = {
+         id: $(this).data("ref")
+      };
+      postToAPI($(this).data("role"),param);
       e.preventDefault();
       $(this).toggleClass("amber-text");
    });
+   // Delete click
+   $(".delete i").on("click", function (e) {      
+      console.log($(this).data("ref"));
+       /*********** Appel de ma fonction API */
+       var param = {
+         id: $(this).data("ref")
+      };
+       postToAPI($(this).data("role"),param);
+       /********* Supprime la ligne dans la dom *****************/
+       $("#contact-" + $(this).data("ref")).remove();
+      //  $("#listContact").remove();
+       e.preventDefault();
+     
+   });
+  
 
    // Toggle class of sidenav
    $("#contact-sidenav").sidenav({
@@ -217,4 +239,7 @@ resizetable();
 if ($(window).width() < 900) {
    $(".sidebar-left.sidebar-fixed").removeClass("animate fadeUp animation-fast");
    $(".sidebar-left.sidebar-fixed .sidebar").removeClass("animate fadeUp");
+}
+function favory(id){
+   console.log(id);
 }

@@ -170,10 +170,10 @@
               <th>Delete</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody  id= "listContact">
             <?php     if(isset($contacts)){
                             foreach($contacts as $contact){?>        
-              <tr>                                                                  
+              <tr id="contact-<?=$contact->id?>">                                                                  
               <td class="center-align contact-checkbox">
                 <label class="checkbox-label">
                   <input type="checkbox" name="foo" />
@@ -185,8 +185,9 @@
               <td><?= $contact->first_Name." ".$contact->last_Name ?></td>
               <td><?= $contact->email ?></td>
               <td><?= $contact->phone ?></td>
-              <td><span class="favorite"><i id="f-<?=$contact->id ?>" class="material-icons"> star_border </i></span></td>
-              <td><span><i class="material-icons delete">delete_outline</i></span></td>
+              <!-- definition data js -->
+              <td><span class="favorite"><i data-role="favory" data-ref="<?=$contact->id?>" data-nom="<?=$contact->first_Name?>" class="material-icons"> star_border </i></span></td>
+              <td><span  class="delete" ><i data-role="delete" data-ref="<?=$contact->id?>" class="material-icons delete">delete_outline</i></span></td>
             </tr>
               <?php }}?>
 

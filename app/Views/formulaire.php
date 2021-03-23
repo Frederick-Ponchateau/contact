@@ -30,6 +30,13 @@
             echo $validation->getError("prenom");
        }   ?>
 <br>
+<input type="email" name="email">
+<br>
+<?php  if(isset($validation) && $validation->hasError('email') && $request->getvar('postForm') == "true"){ 
+            //echo "Un prenom est requis" ;
+            echo $validation->getError("email");
+       }   ?>
+<br>
 <br>
 <button type= "submit">Envoyer</button>
 </form>
