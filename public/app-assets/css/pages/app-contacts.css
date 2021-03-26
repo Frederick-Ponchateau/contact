@@ -150,7 +150,7 @@
 .content-area .app-wrapper .dataTables_wrapper .dataTables_info
 {
     margin-left: 18px;
-
+    display: none;
     color: #616161;
 }
 

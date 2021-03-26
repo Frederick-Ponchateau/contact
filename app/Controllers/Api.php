@@ -193,21 +193,33 @@ class Api extends BaseController
         $etatAction = [
             "reponses" => false 
         ];
-        $name = $this->request->getvar("name");
-        $last_name = $this->request->getvar("prenom");
-        $phone = $this->request->getvar("phone");
+        $name       = $this->request->getvar("name");
+        $last_name  = $this->request->getvar("prenom");
+        $company    = $this->request->getvar("company");
+        $job        = $this->request->getvar("business");
+        $email      = $this->request->getvar("email");
+        $phone      = $this->request->getvar("phone");
+        $note       = $this->request->getvar("notes");
+
         
         $rules = [
             'name'          => 'required|min_length[3]|max_length[20]',
             'prenom'        => 'required|min_length[3]|max_length[20]',
-            //'phone'         => 'required|min_length[3]|max_length[20]'
+            'email'         => 'required|min_length[6]|max_length[50]|valid_email|is_unique[contacts.email]',
+            'phone'         => 'required|min_length[3]|max_length[20]|is_unique[contacts.phone]'
             
         ];
         if($this->validate($rules)){
             $data = [
                 'first_Name'     => $name,
-                'last_Name'   => $last_name,
-                'phone'    => $phone
+                'last_Name'      => $last_name,
+                'company'        => $company,
+                'job'            => $job,
+                'email'          => $email,
+                'phone'          => $phone,
+                'note'           => $note
+
+
                 
             ];
             $this->contact->save($data);

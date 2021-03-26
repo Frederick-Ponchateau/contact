@@ -1,0 +1,42 @@
+ERROR - 2021-03-25 06:41:47 --> mysqli_sql_exception: Champ 'phone' inconnu dans where clause in C:\wamp64\www\contact\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\contact\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\wamp64\www\contact\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\wamp64\www\contact\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\wamp64\www\contact\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\wamp64\www\contact\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\contact\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('0696000001', 'phone', Array, NULL)
+#6 C:\wamp64\www\contact\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '0696000001', Array, Array)
+#7 C:\wamp64\www\contact\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\wamp64\www\contact\app\Controllers\Api.php(206): CodeIgniter\Controller->validate(Array)
+#9 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#10 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#11 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-25 06:41:47 --> Champ 'phone' inconnu dans where clause
+#0 C:\wamp64\www\contact\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 C:\wamp64\www\contact\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\wamp64\www\contact\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\wamp64\www\contact\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\wamp64\www\contact\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\contact\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('0696000001', 'phone', Array, NULL)
+#6 C:\wamp64\www\contact\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('phone', 'phone', '0696000001', Array, Array)
+#7 C:\wamp64\www\contact\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 C:\wamp64\www\contact\app\Controllers\Api.php(206): CodeIgniter\Controller->validate(Array)
+#9 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\Api->create()
+#10 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#11 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-03-25 13:46:23 --> Trying to get property 'id' of non-object
+#0 C:\wamp64\www\contact\app\Views\dbJquery.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\c...', 13, Array)
+#1 C:\wamp64\www\contact\system\View\View.php(220): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\contact\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\contact\system\Common.php(1217): CodeIgniter\View\View->render('/dbJquery', Array, true)
+#4 C:\wamp64\www\contact\app\Controllers\DBJquery.php(20): view('/dbJquery', Array)
+#5 C:\wamp64\www\contact\system\CodeIgniter.php(936): App\Controllers\DBJquery->index()
+#6 C:\wamp64\www\contact\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DBJquery))
+#7 C:\wamp64\www\contact\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\contact\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

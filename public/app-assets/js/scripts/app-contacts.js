@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   "use strict";
+"use strict";
    /*
     * DataTables - Tables
     */
@@ -11,7 +11,7 @@ $(document).ready(function () {
       scrollY: calcDataTableHeight(),
       scrollCollapse: true,
       scrollX: false,
-      paging: true,
+      paging: false,
       responsive: true,
       lengthMenu: [15],
       aoColumns: [
@@ -89,18 +89,24 @@ $(document).ready(function () {
       $(this).toggleClass("amber-text");
    });
    // Delete click
-   $(".delete i").on("click", function (e) {      
+   $(".delete i").click( function (e) {  
+      console.log(e) 
+       e.preventDefault();  
       console.log($(this).data("ref"));
-       /*********** Appel de ma fonction API */
-       var param = {
+      let validation = confirm("Voulez vous supprimez");
+      if(validation){
+         var param = {
          id: $(this).data("ref")
-      };
-       postToAPI($(this).data("role"),param);
+      };/*********** Appel de ma fonction API */
+      postToAPI($(this).data("role"),param);
        /********* Supprime la ligne dans la dom *****************/
-       $("#contact-" + $(this).data("ref")).remove();
-      //  $("#listContact").remove();
-       e.preventDefault();
+      $("#contact-" + $(this).data("ref")).remove();
+      // $("#listContact").remove();
+       
      
+     }
+       
+       
    });
    // Add contact
    
@@ -120,10 +126,44 @@ $(document).ready(function () {
    $(document).on("click", ".app-page i.delete", function () {
       var $tr = $(this).closest("tr");
       if ($tr.prev().hasClass("parent")) {
+         let validation = confirm("Voulez vous supprimez");
+         var param = {
+         id: $(this).data("ref")
+      };/*********** Appel de ma fonction API */
+      postToAPI($(this).data("role"),param);
          $tr.prev().remove();
       }
       $tr.remove();
    });
+
+   // Remove Row for datatable in responsive
+   $(document).on("click", ".app-page .favorite i", function (e) {
+      //var testID = e.target.id.split("-");
+      console.log($(this).data("role"));
+      //alert($(this).data("nom")+" a été ajouté en favory");
+      /*********** Appel de ma fonction API */
+      var param = {
+         id: $(this).data("ref")
+      };
+      postToAPI($(this).data("role"),param);
+      e.preventDefault();
+      $(this).toggleClass("amber-text");
+   });
+
+/*
+      $(".favorite i").on("click", function (e) {
+         //var testID = e.target.id.split("-");
+         console.log($(this).data("role"));
+         //alert($(this).data("nom")+" a été ajouté en favory");
+         
+         var param = {
+            id: $(this).data("ref")
+         };
+         postToAPI($(this).data("role"),param);
+         e.preventDefault();
+         $(this).toggleClass("amber-text");
+      });
+*/
 
    $("#contact-sidenav li").on("click", function () {
       var $this = $(this);

@@ -10,7 +10,7 @@
 <?php if(isset($listeContact)):
         foreach($listeContact as $contact):?>
     <l1><?= $contact["first_Name"]?> 
-    <a  href="<?=base_url("BaseDeDonner/delete/".$contact["id"])?>">Delete</a>
+    <span class="delet"  data-role="delete" data-ref="<?=$contact["id"]?>" >Delete</span>
     <br>
 </l1> 
 <?php endforeach;

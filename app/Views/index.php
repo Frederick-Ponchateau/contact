@@ -173,7 +173,7 @@
           <tbody  id= "listContact">
             <?php     if(isset($contacts)){
                             foreach($contacts as $contact){?>        
-              <tr id="contact-<?=$contact->id?>">                                                                  
+              <tr class="listTr" id="contact-<?=$contact->id?>">                                                                  
               <td class="center-align contact-checkbox">
                 <label class="checkbox-label">
                   <input type="checkbox" name="foo" />
@@ -182,17 +182,20 @@
               </td>              
               <td><span class="avatar-contact avatar-online"><img src="../../../app-assets/images/avatar/avatar-1.png"
                     alt="avatar"></span></td>
+              
               <td><?= $contact->first_Name." ".$contact->last_Name ?></td>
               <td><?= $contact->email ?></td>
               <td><?= $contact->phone ?></td>
+            
               <!-- definition data js -->
-              <td><span class="favorite"><i data-role="favory" data-ref="<?=$contact->id?>" data-nom="<?=$contact->first_Name?>" class="material-icons"> star_border </i></span></td>
+              <td><span class="favorite"><i data-role="favory" data-ref="<?=$contact->id?>" data-nom="<?=$contact->first_Name?>" class="material-icons favorie"> star_border </i></span></td>
               <td><span  class="delete" ><i data-role="delete" data-ref="<?=$contact->id?>" class="material-icons delete">delete_outline</i></span></td>
             </tr>
               <?php }}?>
-
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+          <button class="btnPrev btn btn-primary">Prev</button>
+          <button class="btnNext btn btn-primary">next</button>
       </div>
     </div>
   </div>
@@ -215,12 +218,12 @@
         <div class="row">
           <div class="input-field col s12">
             <i class="material-icons prefix"> perm_identity </i>
-            <input id="first_name" name="first_name" type="text" class="validate">
+            <input id="first_name" name="prenom" type="text" class="validate">
             <label for="first_name">First Name</label>
           </div>
           <div class="input-field col s12">
             <i class="material-icons prefix"> perm_identity </i>
-            <input id="last_name" name="last_name" type="text" class="validate">
+            <input id="last_name" name="name" type="text" class="validate">
             <label for="last_name">Last Name</label>
           </div>
           <div class="input-field col s12">
